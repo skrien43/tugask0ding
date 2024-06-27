@@ -31,7 +31,7 @@ int main(){
     strftime(time_str, sizeof(time_str), "%d %b %Y  --  %H:%M:%S", info);
 
     printf("\n\tPARKIR MOBIL INAP PURNAMA\n");
-    printf("Jl. Raya Bandara No.110, Jakarta 10122877, Indonesia\n");
+    printf("Jl. Raya Bandara No.110, Jakarta, Indonesia\n");
     printf("\t%s\n", &time_str);
     printf("\nSelamat datang di pemesanan Parkir Inap Purnama\nKami menyediakan penginapan mulai dari per malam, paket 3 malam, dan paket 7 malam.\n\n");
     
@@ -142,7 +142,7 @@ int main(){
                 }
                 break;
             case '3':
-                printf("\nTerima Kasih! Program Selesai (10122877).\n\n");
+                printf("\nTerima Kasih! Program Selesai.\n\n");
                 break;
             default :
                 printf("\nInput tidak valid! Coba lagi!\n\n");
